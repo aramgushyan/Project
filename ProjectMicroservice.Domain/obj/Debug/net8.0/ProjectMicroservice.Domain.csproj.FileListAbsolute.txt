@@ -1,0 +1,11 @@
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Domain\bin\Debug\net8.0\ProjectMicroservice.Domain.deps.json
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Domain\bin\Debug\net8.0\ProjectMicroservice.Domain.dll
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Domain\bin\Debug\net8.0\ProjectMicroservice.Domain.pdb
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Domain\obj\Debug\net8.0\ProjectMicroservice.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Domain\obj\Debug\net8.0\ProjectMicroservice.Domain.AssemblyInfoInputs.cache
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Domain\obj\Debug\net8.0\ProjectMicroservice.Domain.AssemblyInfo.cs
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Domain\obj\Debug\net8.0\ProjectMicroservice.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Domain\obj\Debug\net8.0\ProjectMicroservice.Domain.dll
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Domain\obj\Debug\net8.0\refint\ProjectMicroservice.Domain.dll
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Domain\obj\Debug\net8.0\ProjectMicroservice.Domain.pdb
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Domain\obj\Debug\net8.0\ref\ProjectMicroservice.Domain.dll

@@ -1,0 +1,17 @@
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Infrastructure\obj\Debug\net8.0\ProjectMicroservice.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Infrastructure\obj\Debug\net8.0\ProjectMicroservice.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Infrastructure\obj\Debug\net8.0\ProjectMicroservice.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Infrastructure\obj\Debug\net8.0\ProjectMicroservice.Infrastructure.AssemblyInfo.cs
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Infrastructure\obj\Debug\net8.0\ProjectMicroservice.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Infrastructure\bin\Debug\net8.0\ProjectMicroservice.Infrastructure.deps.json
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Infrastructure\bin\Debug\net8.0\ProjectMicroservice.Infrastructure.runtimeconfig.json
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Infrastructure\bin\Debug\net8.0\ProjectMicroservice.Infrastructure.dll
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Infrastructure\bin\Debug\net8.0\ProjectMicroservice.Infrastructure.pdb
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Infrastructure\bin\Debug\net8.0\ProjectMicroservice.Domain.dll
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Infrastructure\bin\Debug\net8.0\ProjectMicroservice.Domain.pdb
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Infrastructure\obj\Debug\net8.0\ProjectM.411E0EA1.Up2Date
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Infrastructure\obj\Debug\net8.0\ProjectMicroservice.Infrastructure.dll
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Infrastructure\obj\Debug\net8.0\refint\ProjectMicroservice.Infrastructure.dll
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Infrastructure\obj\Debug\net8.0\ProjectMicroservice.Infrastructure.pdb
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Infrastructure\obj\Debug\net8.0\ProjectMicroservice.Infrastructure.genruntimeconfig.cache
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Infrastructure\obj\Debug\net8.0\ref\ProjectMicroservice.Infrastructure.dll

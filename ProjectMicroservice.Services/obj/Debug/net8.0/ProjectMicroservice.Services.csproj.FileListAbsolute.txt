@@ -1,0 +1,17 @@
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Services\obj\Debug\net8.0\ProjectMicroservice.Services.csproj.AssemblyReference.cache
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Services\obj\Debug\net8.0\ProjectMicroservice.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Services\obj\Debug\net8.0\ProjectMicroservice.Services.AssemblyInfoInputs.cache
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Services\obj\Debug\net8.0\ProjectMicroservice.Services.AssemblyInfo.cs
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Services\obj\Debug\net8.0\ProjectMicroservice.Services.csproj.CoreCompileInputs.cache
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Services\bin\Debug\net8.0\ProjectMicroservice.Services.deps.json
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Services\bin\Debug\net8.0\ProjectMicroservice.Services.dll
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Services\bin\Debug\net8.0\ProjectMicroservice.Services.pdb
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Services\bin\Debug\net8.0\ProjectMicroservice.Domain.dll
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Services\bin\Debug\net8.0\ProjectMicroservice.Infrastructure.dll
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Services\bin\Debug\net8.0\ProjectMicroservice.Domain.pdb
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Services\bin\Debug\net8.0\ProjectMicroservice.Infrastructure.pdb
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Services\obj\Debug\net8.0\ProjectM.B4AEA018.Up2Date
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Services\obj\Debug\net8.0\ProjectMicroservice.Services.dll
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Services\obj\Debug\net8.0\refint\ProjectMicroservice.Services.dll
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Services\obj\Debug\net8.0\ProjectMicroservice.Services.pdb
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Services\obj\Debug\net8.0\ref\ProjectMicroservice.Services.dll
