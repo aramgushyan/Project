@@ -15,3 +15,4 @@ C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Infrastru
 C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Infrastructure\obj\Debug\net8.0\ProjectMicroservice.Infrastructure.pdb
 C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Infrastructure\obj\Debug\net8.0\ProjectMicroservice.Infrastructure.genruntimeconfig.cache
 C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Infrastructure\obj\Debug\net8.0\ref\ProjectMicroservice.Infrastructure.dll
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Infrastructure\obj\Debug\net8.0\ProjectMicroservice.Infrastructure.sourcelink.json

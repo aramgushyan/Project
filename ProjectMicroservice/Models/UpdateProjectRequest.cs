@@ -7,13 +7,14 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ProjectMicroservice.Domain.Entities
 {
-    internal class UpdateProjectRequest
+    public class UpdateProjectRequest
     {
 
         public string Name { get; set; }
         public string Description { get; set; }
         public string Tint { get; set; }
         public int LeadId { get; set; }
+        public int WorkspaceId { get; set; }
 
     }
 }
