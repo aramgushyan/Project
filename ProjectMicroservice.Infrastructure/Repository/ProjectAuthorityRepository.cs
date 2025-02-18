@@ -1,4 +1,5 @@
-﻿using ProjectMicroservice.Domain.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using ProjectMicroservice.Domain.Entities;
 using ProjectMicroservice.Infrastructure.Context;
 using System;
 using System.Collections.Generic;
@@ -18,18 +19,23 @@ namespace ProjectMicroservice.Infrastructure.Repository
 
         public async Task CreateProjectAuthoritiesAsync(ProjectAuthority projectAuthority)
         {
-            _context.AddAsync(projectAuthority);
+            await  _context.AddAsync(projectAuthority);
             await _context.SaveChangesAsync();
         }
 
         public async Task<ProjectAuthority> GetAuthoritiesByIdAsync(int id)
         {
-            return await _context.projectsAuthority.FindAsync(id);
+            return await _context.projectsAuthority.FirstOrDefaultAsync(authoriti => authoriti.ProjectId == id);
+
         }
 
-        public async Task UpdateProjectAuthoritiesAsync(ProjectAuthority projectAuthority)
+        public async Task UpdateProjectAuthoritiesAsync(int id,ProjectAuthority projectAuthority)
         {
-            _context.Update(projectAuthority);
+            var authoriti = await GetAuthoritiesByIdAsync(id);
+
+            authoriti.UserId =projectAuthority.UserId;
+            authoriti.Privilege =projectAuthority.Privilege;
+
             await _context.SaveChangesAsync();
         }
     }

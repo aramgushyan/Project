@@ -5,18 +5,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
-namespace ProjectMicroservice.Domain.Entities
+namespace ProjectMicroservice.Application
 {
-    internal class ProjectInfoDto
+    public class UpdateProjectRequest
     {
-        [Required]
-        public int Id { get; set; }
-        [Required]
+
         public string Name { get; set; }
         public string Description { get; set; }
         public string Tint { get; set; }
-        [Required]
         public int LeadId { get; set; }
+        public int WorkspaceId { get; set; }
 
     }
 }

@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "createProjectRequest",
-        "Type": "ProjectMicroservice.Domain.Entities.CreateProjectRequest",
+        "Type": "ProjectMicroservice.Application.CreateProjectRequest",
         "IsRequired": true
       }
     ],
@@ -72,7 +72,75 @@
       },
       {
         "Name": "updatedProject",
-        "Type": "ProjectMicroservice.Domain.Entities.UpdateProjectRequest",
+        "Type": "ProjectMicroservice.Application.UpdateProjectRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectMicroservice.Controllers.ProjectController",
+    "Method": "CreateAuthorities",
+    "RelativePath": "v1/projects/{projectid}/authorities",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userPrivilege",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectMicroservice.Controllers.ProjectController",
+    "Method": "GetAuthoritiesById",
+    "RelativePath": "v1/projects/{projectid}/authorities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.ICollection\u00601[[ProjectMicroservice.Domain.Entities.Project, ProjectMicroservice.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProjectMicroservice.Controllers.ProjectController",
+    "Method": "UpdateAuthorities",
+    "RelativePath": "v1/projects/{projectId}/authorities",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateAuthority",
+        "Type": "Projectmicroservice.Application.Models.UpdateAuthorityRequest",
         "IsRequired": true
       }
     ],

@@ -4,23 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using ProjectMicroservice.Domain.Enums;
 
-namespace ProjectMicroservice.Domain.Entities
+namespace ProjectMicroservice.Application
 {
-    internal class ProjectAuthorityDto
+    public class ProjectAuthorityDto
     {
         [Required]
         public int UserId { get; set; }
         [Required]
-        public UserPrivileg Privileg { get; set; }
+        public UserPrivilege Privilege { get; set; }
 
-    }
-    public enum UserPrivileg
-    {
-
-        Read,
-        Write,
-        Admin
+        
 
     }
 }

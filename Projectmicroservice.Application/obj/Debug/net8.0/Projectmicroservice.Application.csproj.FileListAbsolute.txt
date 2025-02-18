@@ -1,0 +1,16 @@
+C:\Users\Арам\source\repos\ProjectMicroservice\Projectmicroservice.Application\bin\Debug\net8.0\Projectmicroservice.Application.deps.json
+C:\Users\Арам\source\repos\ProjectMicroservice\Projectmicroservice.Application\bin\Debug\net8.0\Projectmicroservice.Application.dll
+C:\Users\Арам\source\repos\ProjectMicroservice\Projectmicroservice.Application\bin\Debug\net8.0\Projectmicroservice.Application.pdb
+C:\Users\Арам\source\repos\ProjectMicroservice\Projectmicroservice.Application\obj\Debug\net8.0\Projectmicroservice.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Арам\source\repos\ProjectMicroservice\Projectmicroservice.Application\obj\Debug\net8.0\Projectmicroservice.Application.AssemblyInfoInputs.cache
+C:\Users\Арам\source\repos\ProjectMicroservice\Projectmicroservice.Application\obj\Debug\net8.0\Projectmicroservice.Application.AssemblyInfo.cs
+C:\Users\Арам\source\repos\ProjectMicroservice\Projectmicroservice.Application\obj\Debug\net8.0\Projectmicroservice.Application.csproj.CoreCompileInputs.cache
+C:\Users\Арам\source\repos\ProjectMicroservice\Projectmicroservice.Application\obj\Debug\net8.0\Projectmicroservice.Application.sourcelink.json
+C:\Users\Арам\source\repos\ProjectMicroservice\Projectmicroservice.Application\obj\Debug\net8.0\Projectmicroservice.Application.dll
+C:\Users\Арам\source\repos\ProjectMicroservice\Projectmicroservice.Application\obj\Debug\net8.0\refint\Projectmicroservice.Application.dll
+C:\Users\Арам\source\repos\ProjectMicroservice\Projectmicroservice.Application\obj\Debug\net8.0\Projectmicroservice.Application.pdb
+C:\Users\Арам\source\repos\ProjectMicroservice\Projectmicroservice.Application\obj\Debug\net8.0\ref\Projectmicroservice.Application.dll
+C:\Users\Арам\source\repos\ProjectMicroservice\Projectmicroservice.Application\bin\Debug\net8.0\ProjectMicroservice.Domain.dll
+C:\Users\Арам\source\repos\ProjectMicroservice\Projectmicroservice.Application\bin\Debug\net8.0\ProjectMicroservice.Domain.pdb
+C:\Users\Арам\source\repos\ProjectMicroservice\Projectmicroservice.Application\obj\Debug\net8.0\Projectmicroservice.Application.csproj.AssemblyReference.cache
+C:\Users\Арам\source\repos\ProjectMicroservice\Projectmicroservice.Application\obj\Debug\net8.0\Projectm.FF3DB95E.Up2Date

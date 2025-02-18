@@ -11,7 +11,9 @@ namespace ProjectMicroservice.Domain.Entities
     public class ProjectAuthority
     {
         [Key]
+        public int Id { get; set; }
         public int UserId { get; set; }
+        
         public int ProjectId { get; set; }
         public UserPrivilege Privilege { get; set; }
         public Project Project { get; set; } 

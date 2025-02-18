@@ -15,7 +15,7 @@ namespace ProjectMicroservice.Domain.Entities
         public int LeadId { get; set; } 
         public int WorkSpaceId { get; set; }
 
-        public ICollection<ProjectAuthority> Authorities { get; set; }
+        public ICollection<ProjectAuthority> Authorities { get; set; } = new List<ProjectAuthority>();
 
     }
 }

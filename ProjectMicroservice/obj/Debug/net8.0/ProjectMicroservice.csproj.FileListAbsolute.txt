@@ -172,3 +172,5 @@ C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice\obj\Debug
 C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice\bin\Debug\net8.0\ProjectMicroservice.Services.dll
 C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice\bin\Debug\net8.0\ProjectMicroservice.Services.pdb
 C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice\obj\Debug\net8.0\ProjectMicroservice.sourcelink.json
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice\bin\Debug\net8.0\Projectmicroservice.Application.dll
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice\bin\Debug\net8.0\Projectmicroservice.Application.pdb

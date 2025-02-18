@@ -54,11 +54,11 @@ namespace ProjectMicroservice.Infrastructure.Migrations
 
             modelBuilder.Entity("ProjectMicroservice.Domain.Entities.ProjectAuthority", b =>
                 {
-                    b.Property<int>("UserId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("Privilege")
                         .HasColumnType("int");
@@ -66,7 +66,10 @@ namespace ProjectMicroservice.Infrastructure.Migrations
                     b.Property<int>("ProjectId")
                         .HasColumnType("int");
 
-                    b.HasKey("UserId");
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
 
                     b.HasIndex("ProjectId");
 

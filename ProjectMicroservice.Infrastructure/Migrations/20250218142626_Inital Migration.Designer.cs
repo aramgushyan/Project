@@ -11,7 +11,7 @@ using ProjectMicroservice.Infrastructure.Context;
 namespace ProjectMicroservice.Infrastructure.Migrations
 {
     [DbContext(typeof(ProjectMicroserviseDbContext))]
-    [Migration("20250201123035_Inital Migration")]
+    [Migration("20250218142626_Inital Migration")]
     partial class InitalMigration
     {
         /// <inheritdoc />
@@ -57,11 +57,11 @@ namespace ProjectMicroservice.Infrastructure.Migrations
 
             modelBuilder.Entity("ProjectMicroservice.Domain.Entities.ProjectAuthority", b =>
                 {
-                    b.Property<int>("UserId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("Privilege")
                         .HasColumnType("int");
@@ -69,7 +69,10 @@ namespace ProjectMicroservice.Infrastructure.Migrations
                     b.Property<int>("ProjectId")
                         .HasColumnType("int");
 
-                    b.HasKey("UserId");
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
 
                     b.HasIndex("ProjectId");
 

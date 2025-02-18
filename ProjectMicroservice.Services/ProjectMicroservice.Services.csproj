@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Projectmicroservice.Application\Projectmicroservice.Application.csproj" />
     <ProjectReference Include="..\ProjectMicroservice.Domain\ProjectMicroservice.Domain.csproj" />
     <ProjectReference Include="..\ProjectMicroservice.Infrastructure\ProjectMicroservice.Infrastructure.csproj" />
   </ItemGroup>

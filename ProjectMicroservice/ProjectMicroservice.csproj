@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.1">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -19,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Projectmicroservice.Application\Projectmicroservice.Application.csproj" />
     <ProjectReference Include="..\ProjectMicroservice.Domain\ProjectMicroservice.Domain.csproj" />
     <ProjectReference Include="..\ProjectMicroservice.Infrastructure\ProjectMicroservice.Infrastructure.csproj" />
     <ProjectReference Include="..\ProjectMicroservice.Services\ProjectMicroservice.Services.csproj" />

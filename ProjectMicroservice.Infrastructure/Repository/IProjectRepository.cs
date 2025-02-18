@@ -14,6 +14,6 @@ namespace ProjectMicroservice.Infrastructure.Repository
         Task CreateProjectAsync(Project project);
         Task UpdateProjectAsync(Project project);
         Task DeleteAsync(int id);
-        Task AddAuthorityAsync(int id,ProjectAuthority projectAuthority);
+
     }
 }

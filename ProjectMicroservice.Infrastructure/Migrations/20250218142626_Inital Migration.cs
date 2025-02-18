@@ -31,14 +31,15 @@ namespace ProjectMicroservice.Infrastructure.Migrations
                 name: "projectsAuthority",
                 columns: table => new
                 {
-                    UserId = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    UserId = table.Column<int>(type: "int", nullable: false),
                     ProjectId = table.Column<int>(type: "int", nullable: false),
                     Privilege = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_projectsAuthority", x => x.UserId);
+                    table.PrimaryKey("PK_projectsAuthority", x => x.Id);
                     table.ForeignKey(
                         name: "FK_projectsAuthority_Projects_ProjectId",
                         column: x => x.ProjectId,

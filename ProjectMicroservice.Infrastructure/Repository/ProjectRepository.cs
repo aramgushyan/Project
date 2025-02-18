@@ -1,11 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProjectMicroservice.Domain.Entities;
 using ProjectMicroservice.Infrastructure.Context;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using ProjectMicroservice.Domain.Entities;
 
 namespace ProjectMicroservice.Infrastructure.Repository
 {
@@ -15,15 +11,6 @@ namespace ProjectMicroservice.Infrastructure.Repository
         public ProjectRepository(ProjectMicroserviseDbContext context) 
         {
             _context = context;
-        }
-
-        public async Task AddAuthorityAsync(int id, ProjectAuthority projectAuthority)
-        {
-            projectAuthority.ProjectId = id;
-            var project = await GetProjectByIdAsync(id);
-            project.Authorities.Add(projectAuthority);
-            _context.Update(project);
-            await _context.SaveChangesAsync();
         }
 
         public  async Task CreateProjectAsync(Project project)

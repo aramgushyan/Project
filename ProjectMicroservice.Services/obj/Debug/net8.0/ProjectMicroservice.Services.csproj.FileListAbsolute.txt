@@ -16,3 +16,5 @@ C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Services\
 C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Services\obj\Debug\net8.0\ProjectMicroservice.Services.pdb
 C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Services\obj\Debug\net8.0\ref\ProjectMicroservice.Services.dll
 C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Services\obj\Debug\net8.0\ProjectMicroservice.Services.sourcelink.json
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Services\bin\Debug\net8.0\Projectmicroservice.Application.dll
+C:\Users\Арам\source\repos\ProjectMicroservice\ProjectMicroservice.Services\bin\Debug\net8.0\Projectmicroservice.Application.pdb

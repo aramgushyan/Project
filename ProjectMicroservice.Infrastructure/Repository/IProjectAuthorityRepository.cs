@@ -10,7 +10,8 @@ namespace ProjectMicroservice.Infrastructure.Repository
     public interface IProjectAuthorityRepository
     {
         Task <ProjectAuthority> GetAuthoritiesByIdAsync(int id);
+        
+        Task UpdateProjectAuthoritiesAsync(int id,ProjectAuthority projectAuthority);
         Task CreateProjectAuthoritiesAsync(ProjectAuthority projectAuthority);
-        Task UpdateProjectAuthoritiesAsync(ProjectAuthority projectAuthority);
     }
 }
