@@ -32,10 +32,12 @@ namespace ProjectMicroservice.Controllers
         public async Task<ActionResult<List<Project>>> GetAll(int leadId)
         {
             var all = await _projectService.ShowAllProjectsAsync(leadId);
-            if (all == null) 
+
+            if (all.Count == 0) 
             {
                 return NotFound();
             }
+
             return Ok(all);
         }
 
@@ -53,6 +55,7 @@ namespace ProjectMicroservice.Controllers
             {
                 return NotFound();
             }
+
             await _projectRepository.DeleteAsync(projectId);
             return NoContent();
         }
@@ -64,6 +67,7 @@ namespace ProjectMicroservice.Controllers
             {
                 return NotFound();
             }
+
             await _projectService.UpdateProjectAsync(projectId, updatedProject.Name, updatedProject.Description, updatedProject.Tint, updatedProject.WorkspaceId, updatedProject.LeadId);
             return NoContent();
         }
@@ -82,11 +86,12 @@ namespace ProjectMicroservice.Controllers
         [HttpPost("{projectid}/authorities")]
         public async Task<IActionResult> CreateAuthorities(int projectId,[FromBody]UserPrivilege userPrivilege) 
         {
-            await _projectAuthorityService.CreateProjectAuthorities(projectId,userPrivilege);
-            if (await _projectService.ShowProjectAsync(projectId) == null) 
+            if (await _projectService.ShowProjectAsync(projectId) == null)
             {
                 return NotFound();
             }
+
+            await _projectAuthorityService.CreateProjectAuthorities(projectId,userPrivilege);
             return NoContent();
         }
 
@@ -94,10 +99,12 @@ namespace ProjectMicroservice.Controllers
         public async Task<ActionResult<ICollection<Project>>> GetAuthoritiesById(int projectId)
         {
             var authoritiInfoDto = await _projectAuthorityService.GetAuthoritiesById(projectId);
+
             if (authoritiInfoDto == null)
             {
                 return NotFound();
             }
+
             return Ok(authoritiInfoDto);
         }
 
@@ -108,8 +115,8 @@ namespace ProjectMicroservice.Controllers
             {
                 return NotFound();
             }
+
             await _projectAuthorityService.UpdateProjectAuthorities(projectId, updateAuthority.UserId, updateAuthority.Privilege);
-           
             return NoContent();
         }
 
